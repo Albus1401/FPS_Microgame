@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-9126155841221605655
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Explosion_Near-001_{-9126155841221605655}
+  m_AudioClip: {fileID: 8300000, guid: 667a8c2ed3cd24b4a9db038d3595cbb2, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-8419613054341398885
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Explosion_Near-003_{-8419613054341398885}
+  m_AudioClip: {fileID: 8300000, guid: 3fea75919a8826f448eac96031698091, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-8129511716576003773
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Explosion_Near-002_{-8129511716576003773}
+  m_AudioClip: {fileID: 8300000, guid: b5bd1069bd6c77744b496dfab3027ba3, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HoverbotDeath
+  m_Volume: 0
+  m_Pitch: -196
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: -123.4286, y: 246.85706}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -9126155841221605655}
+  - {fileID: -8129511716576003773}
+  - {fileID: -8419613054341398885}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 0
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0

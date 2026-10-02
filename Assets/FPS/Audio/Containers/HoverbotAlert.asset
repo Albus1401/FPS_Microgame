@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-6921757696934426942
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Alarm_Short-002_{-6921757696934426942}
+  m_AudioClip: {fileID: 8300000, guid: 7cd44869190c52c4186b611a3f5d739e, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-5411913956477666225
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Alarm_Short-001_{-5411913956477666225}
+  m_AudioClip: {fileID: 8300000, guid: 5e2d45573cb71424a82782deaa8fb073, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2849370287433874359
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Alarm_Short-004_{-2849370287433874359}
+  m_AudioClip: {fileID: 8300000, guid: 8f60700b605da2d4d87e2582461e9703, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-2661820216749504957
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Alarm_Short-003_{-2661820216749504957}
+  m_AudioClip: {fileID: 8300000, guid: 25d61d5334f8fce48bec84e95c01d272, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1047775502493804287
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Alarm_Short-005_{1047775502493804287}
+  m_AudioClip: {fileID: 8300000, guid: 94f7c4f54ef07214a8d67d30bf26d1f6, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HoverbotAlert
+  m_Volume: 0
+  m_Pitch: 633
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -5411913956477666225}
+  - {fileID: -6921757696934426942}
+  - {fileID: -2661820216749504957}
+  - {fileID: -2849370287433874359}
+  - {fileID: 1047775502493804287}
+  m_AvoidRepeatingLast: 2
+  m_PlaybackMode: 2
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0

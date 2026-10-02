@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-5524789202788338706
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Metal_Impact_High-004_{-5524789202788338706}
+  m_AudioClip: {fileID: 8300000, guid: 6a38b7075fb26614b82310622ccd064f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &-914534524609574594
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Metal_Impact_High-001_{-914534524609574594}
+  m_AudioClip: {fileID: 8300000, guid: 2e858af691f0f9c4a953f2581a257ae2, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1968551003440643644
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Metal_Impact_High-003_{1968551003440643644}
+  m_AudioClip: {fileID: 8300000, guid: d042efcc58d70544fb04a989f4994154, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &6064598408080575429
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX_Metal_Impact_High-002_{6064598408080575429}
+  m_AudioClip: {fileID: 8300000, guid: a46ba6a24afd48c40b3c62e53f863160, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HoverbotDMG
+  m_Volume: -20.4
+  m_Pitch: -836
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: -137.14285, y: 95.99998}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: -914534524609574594}
+  - {fileID: 6064598408080575429}
+  - {fileID: 1968551003440643644}
+  - {fileID: -5524789202788338706}
+  m_AvoidRepeatingLast: 2
+  m_PlaybackMode: 2
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0

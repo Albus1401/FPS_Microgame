@@ -219,7 +219,8 @@ MonoBehaviour:
     type: 3}
   UnparentMuzzleFlash: 0
   ShootSfx: {fileID: 8300000, guid: 0f72fccc77e4b4c3ebae266d6ed59c5a, type: 3}
-  laserSFX: {fileID: 0}
+  laserSFX: {fileID: 6418180475301049370, guid: a34ead3b5a58dfe40a0f5bcbb26d8cbb,
+    type: 2}
   ChangeWeaponSfx: {fileID: 8300000, guid: 7b83d61917ac1224f942a0609b1221f2, type: 3}
   UseContinuousShootSound: 0
   ContinuousShootStartSfx: {fileID: 0}
@@ -291,7 +292,8 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   OverheatingMaterial: {fileID: 2100000, guid: 0c55f53a7bb3c354ababeb18b89c2fce, type: 2}
   CoolingCellsSound: {fileID: 0}
-  coolingCellsSound: {fileID: 0}
+  coolingCellsSound: {fileID: 6418180475301049370, guid: 382c53422a6fe484b928d8a0f931d860,
+    type: 2}
   AmmoToVolumeRatioCurve:
     serializedVersion: 2
     m_Curve:
@@ -339,7 +341,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.3
+  m_Volume: 0.35
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1487,6 +1489,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6867164318176036221}
     m_Modifications:
+    - target: {fileID: 3535881425241086519, guid: 21c8bd050f24da54285f8a3987ee6253,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5338991494728519494, guid: 21c8bd050f24da54285f8a3987ee6253,
         type: 3}
       propertyPath: m_RootOrder
